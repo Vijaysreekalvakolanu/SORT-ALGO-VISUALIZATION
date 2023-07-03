@@ -1,0 +1,157 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  nav {
+    background-color: indianred;
+    color: black;
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap: 10%;
+    padding: 0% 5%;
+  }
+  
+  nav .array-inputs {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    place-content: center;
+    padding: 5% 0%;
+  }
+  
+  nav .array-inputs #a_size {
+    padding: 5% 0%;
+  }
+  
+  nav .array-inputs #a_speed {
+    padding: 5% 0%;
+  }
+  
+  nav .array-inputs #a_generate {
+    padding: 4% 0% 0% 0%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 10px;
+    background-color:antiquewhite;
+  }
+  
+  nav .array-inputs #a_generate:hover {
+    cursor: pointer;
+  }
+  
+  .nav-heading {
+    background-color:beige;
+    font-size:xx-large;
+    justify-content:center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align:center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  
+nav .algos {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 20px;
+  }
+  
+  nav .algos button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    outline: none;
+    padding: 5% 0%;
+    font-size: x-large;
+  }
+  
+  nav .algos button:hover {
+    background-color:transparent;
+    cursor: pointer;
+  }
+  
+  nav .algos .btn_locked {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  nav .algos .btn_locked:hover {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  nav .algos .btn_selected {
+    background-color:grey;
+    color: green;
+  }
+  
+  nav .algos .btn_selected:hover {
+    background-color:grey;
+    cursor: pointer;
+  }
+  
+  nav .algos .btn_unselected:hover {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  section {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    
+  }
+  
+  section .Complexity_Containers {
+    margin-top: 20%;
+  }
+  
+  section .Complexity_Containers .Def{
+    margin-top: 20%;
+  }
+  
+  section .Complexity_Containers .Def p {
+    display: inline;
+  }
+  
+  section .Complexity_Containers .Def p.Sub_Heading {
+    font-size: medium;
+    text-transform: none;
+  }
+  
+  section #Cont1 {
+    padding: 20% 10%;
+  }
+  
+  section #Cont1 h3 {
+    text-decoration: underline;
+  }
+  
+  section #array_container {
+      display: flex;
+      width:100%;
+      justify-content: center;
+      flex-direction: row;
+      height:70vh;
+  }
+  
+  section #Cont2 {
+    padding: 20% 10%;
+  }
+  
+  section #Cont2 h3 {
+    text-decoration: underline;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  
+ 
